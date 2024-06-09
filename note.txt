@@ -1,0 +1,60 @@
+    <h1>My rol as developer</h1>
+    <h2>My name here</h2>
+    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Voluptate sed dolor aliquam quia nostrum praesentium neque nemo commodi! Ad facere saepe, recusandae debitis porro doloribus. Cum deserunt minus vitae fuga.
+    Sed eum eaque nam praesentium perferendis, est voluptas iste perspiciatis temporibus minima eos consequuntur iure unde adipisci placeat cum error? Quisquam fugit animi dolores illo cumque assumenda magnam quis fuga.
+    Molestiae mollitia enim sint totam fugiat eos, assumenda, accusantium soluta quibusdam error placeat. In sed, ab dolor, ipsum tenetur libero aspernatur earum quibusdam minima assumenda maiores sequi facilis quae aperiam.
+    Obcaecati quas assumenda officiis sed minus deserunt alias eum porro consequuntur hic, odit doloremque, vitae tenetur aliquam harum ratione sapiente architecto reiciendis sit debitis quae quidem. Repudiandae ab dolorem quos?
+    Obcaecati ea, odio vero facere ipsum ex error perspiciatis possimus iste rerum eveniet distinctio harum. Soluta, enim! Magnam, delectus labore sequi, quis excepturi laboriosam reprehenderit voluptatem est quia, commodi ab.</p>
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Numquam corrupti eos accusantium officia laboriosam velit, natus incidunt optio, commodi asperiores dolorem, eveniet iusto corporis tempora cupiditate. Sequi quod molestias eligendi?
+    Ipsam modi laudantium quidem exercitationem maiores architecto similique magni ipsum. Quam perferendis odio voluptates doloribus quaerat sequi ducimus, deserunt deleniti architecto quae totam earum asperiores, dolorum id illum repellat labore.
+    Doloribus in blanditiis, commodi obcaecati dicta earum, sed eligendi nesciunt pariatur ab soluta aliquid ipsum minima. Doloribus officiis ex consectetur incidunt iusto architecto corporis dolorum magni, ipsam fuga culpa ullam?
+    Quos aliquid nisi praesentium, voluptas nihil repellendus deserunt molestias consectetur. Facilis alias quaerat dolorem iure? Amet vel, dicta laborum nulla nobis doloribus sapiente officia adipisci deserunt quos minima itaque eveniet?
+    Atque quae maxime ab natus aliquid, cum libero rem in mollitia repudiandae ea excepturi modi odio, quos deserunt voluptas nemo odit corrupti quaerat? Itaque commodi aspernatur asperiores atque, quas laudantium!</p>
+    <label class="label-text">Skill or Technology</label>
+
+    <nav class="navbar">
+        <div class="logo"></div>
+        <div class="nav-links">
+            <a href="#about">ABOUT ME</a>
+            <a href="#projects">PROJECTS</a>
+            <a href="#experience">EXPERIENCE</a>
+            <a href="#contact">CONTACT</a>
+        </div>
+    </nav>
+
+    
+.navbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: var(--secondary-color-600);
+    padding: 10px 20px;
+}
+.logo {
+    width: 50px;
+    height: 50px;
+    background: url('/img/nutria.jpg') no-repeat center center;
+    background-size: cover;
+    border: 1px solid #000;
+    border-radius: 2rem;
+    flex: 0.03;
+}
+.nav-links {
+    display: flex;
+    gap: 10rem;
+    flex: 0.97;
+    justify-content: center;
+}
+.nav-links a {
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+}
+.label-text{
+    color: #000000;
+    background-color: var(--primary-color-100);
+    text-transform: uppercase;
+    font-weight: 600;
+    padding: 0.8rem 1.5rem;
+    font-size: 1.1rem;
+}
