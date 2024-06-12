@@ -12,40 +12,65 @@ Following the Microsoft documentation.
 */
 
 
-@media((min-width:641px) and (max-width:1007px)){
-    html{
+@media((min-width:641px) and (max-width:1007px)) {
+    html {
         font-size: 12px;
+    }
+    
+    .label-list {
+        grid-template-columns: repeat(3, 1fr) !important;
     }
 }
 
 @media (max-width: 640px) {
-    html{
+    html {
         font-size: 10px;
     }
-    header{
+
+    header {
         flex-direction: column;
         height: fit-content;
         padding: 2%;
     }
-    .nav-btn{
+
+    .nav-btn {
         display: inline-flex;
     }
-    .nav-options{
+
+    .nav-options {
         flex-direction: column;
     }
-    .nav-btn span{
+
+    .nav-btn span {
         display: block;
         width: 30px;
         height: 3px;
         background-color: var(--neutral-color);
         margin: 6px auto;
     }
-    #check-option:not(:checked) ~ .nav-options{
+
+    #check-option:not(:checked)~.nav-options {
         height: 0;
         overflow: hidden;
     }
-    #check-option:checked ~ .nav-options{
+
+    #check-option:checked~.nav-options {
         height: auto;
         overflow: auto;
+    }
+
+    .about-section {
+        flex-direction: column;
+    }
+    .about-description-container{
+        width: 100% !important;
+    }
+    .about-image-container img,.about-description-container p {
+        width: 100%;
+    }
+
+    .label-list {
+        width: 90%;
+        grid-template-columns: repeat(3, 1fr) !important;
     }
 }
