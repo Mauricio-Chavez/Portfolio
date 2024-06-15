@@ -12,13 +12,41 @@ Following the Microsoft documentation.
 */
 
 
-@media((min-width:641px) and (max-width:1007px)) {
+@media((max-width:1007px)) {
     html {
         font-size: 12px;
     }
-    
-    .label-list {
-        grid-template-columns: repeat(3, 1fr) !important;
+
+    .about-section {
+        flex-direction: column !important;
+    }
+
+    .about-description-container {
+        width: 100% !important; 
+        margin-top: 2rem !important;
+    }
+    .about-image-container{
+        width: 60% !important;
+    }
+    /* .about-image-container img{
+        height: 30rem !important;
+        object-position: center 40% !important;
+    }   */
+    .project-card {
+        width: 100% !important;
+    }
+
+    .project-card img {
+        width: 100% !important;
+        height: 25rem !important;
+        object-fit: cover !important;
+        object-position: center 50% !important;
+    }
+
+    .project-card a {
+        width: 100%;
+        height: min-content;
+        flex-direction: column;
     }
 }
 
@@ -62,15 +90,17 @@ Following the Microsoft documentation.
     .about-section {
         flex-direction: column;
     }
-    .about-description-container{
+
+    .about-description-container {
         width: 100% !important;
     }
-    .about-image-container img,.about-description-container p {
+
+    .about-image-container img,
+    .about-description-container p {
         width: 100%;
     }
 
     .label-list {
         width: 90%;
-        grid-template-columns: repeat(3, 1fr) !important;
     }
 }
